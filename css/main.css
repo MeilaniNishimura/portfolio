@@ -1,0 +1,178 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    font-family:didot;
+    background-color:white;
+   
+}
+
+#baby_meilani{
+   width:200px;
+    
+}
+#luna{
+  width:200px;
+
+}
+#malia{
+    width:200px;
+}
+    
+nav li{
+    display: inline;
+    margin: 20px;
+    }
+
+    nav ul{
+       background-color:#F7E5F2;
+        margin:0;
+        list-style-type:none;
+        width: 100%;
+        padding: 20px;
+
+
+    }
+
+    nav{
+        display: block;
+        color:black;
+     }
+     nav a{
+         color:black;
+         text-decoration:none;
+     }
+     nav a:hover{
+         color:white;
+
+     }
+
+     .hero-image{
+         background-image:url("../images/new_header_image.webp");
+         height: 50%;
+         opacity:0.85;
+         background-repeat:no-repeat;
+         background-size:cover;
+         background-position:center;
+         position: relative;
+
+        }
+
+        .hero-text{
+            color:black;
+            text-align:center;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%)
+
+
+        }
+        #winter_image{
+            width:200px
+
+        }
+        #main{
+            width:70%;
+            float:left;
+            height:100%;
+            padding-left:20px;
+            padding-top:20px;
+        }
+
+        #side{
+            width:25%;
+            float:right;
+            height:100%;
+            padding:20px;
+        
+
+        }
+
+        #profile-image{
+            width:100px;
+            border-radius:50%;
+            border:5px solid #ffd700;
+
+
+        }
+        #profile{
+            text-align:center;
+
+        }
+
+        .side-articles ul{
+            list-style-type: none;
+            padding-left:0px;
+        }
+        #profile h2{
+            display:inline;
+
+        }
+        #profile-details{
+            margin-right:30px;
+            text-align:center;
+
+        }
+        .side-articles, .main-articles{
+            padding:10px;
+            margin-bottom:10px;
+            border-style:double;
+            border-color:#ffd700;
+            border-radius:10px;
+            border-width:10px;
+
+
+
+        }
+        #article_a{
+            border-style:double;
+            border-color:#ffd700;
+            border-radius:10px;
+            border-width:10px;
+            
+        }
+.side-articles{
+    text-align:center;
+}
+
+form{
+    margin-top:20px;
+
+}
+textarea, input{
+    border-radius:5px;
+    padding:5px;
+    margin:5px;
+
+}
+
+.side-articles h1{
+    margin-bottom:20px;
+  
+
+}
+footer{
+    width:100%;
+    height:5vh;
+    margin-top:0px;
+    border-style:double;
+    border-color:#ffd700;
+
+}
+footer div{
+    text-align:center;
+    color:black;
+
+}
+main{
+    overflow:auto;
+
+}
+footer hr{
+    margin-top:0px;
+    height:12px;
+    border:0px;
+    box-shadow:inset 0 12px 12px -12px white
+}
